@@ -1,7 +1,7 @@
 # Customer Churn Machine Learning Model
 
 ## 📊 Overview
-This project builds a basic machine learning model to predict customer churn using Python and scikit-learn.
+This project builds a machine learning model to predict customer churn using Python and scikit-learn.
 
 ## 🛠 Tools Used
 - Python
@@ -10,10 +10,10 @@ This project builds a basic machine learning model to predict customer churn usi
 - matplotlib
 
 ## 📈 Model Workflow
-- Created and prepared a sample customer dataset
-- Trained a logistic regression model
-- Evaluated model accuracy
-- Visualized feature importance and model performance
+- Prepared dataset
+- Trained logistic regression model
+- Evaluated accuracy
+- Visualized feature importance
 
 ## 📷 Feature Importance
 ![Feature Importance](feature_importance.png)
@@ -21,13 +21,10 @@ This project builds a basic machine learning model to predict customer churn usi
 ## 📷 Confusion Matrix
 ![Confusion Matrix](confusion_matrix.png)
 
-## 📌 What I Learned
-- How to split data into training and testing sets
-- How logistic regression can be used for classification
-- How to evaluate model performance using accuracy and confusion matrices
-- How to identify which features influence predictions
+## 📌 Key Insight
+Monthly spend was the strongest predictor of churn behavior.
 
-## 🚀 Next Steps
-- Use a larger dataset
-- Compare multiple classification models
-- Add more business-focused customer variables
+## 📌 What I Learned
+- How to build and evaluate ML models
+- How to interpret feature importance
+- How to translate model output into business insights
